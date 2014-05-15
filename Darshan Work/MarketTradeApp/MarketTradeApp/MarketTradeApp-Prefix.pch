@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define kDatabaseName @"MarketApp.sqlite"
+#define kBter @"BTER"
+#define kMintPal @"MintPal"
+#define kBittrex @"Bittrex"
+
+
+#define kName @"Name"
+#define kLastPrice @"LastPrice"
+#define kChange @"Change"
+#define kType @"Type"
+
+#define kLastUpdateDate @"LastUpdateDate"
+#define kPref [NSUserDefaults standardUserDefaults]
+
+#define kFirstDate @"FirstDate"
+#define kLastReadDate @"LastReadDate"
+
+
+/*CREATE TABLE "coins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT, "Name" TEXT, "LastPrice" TEXT, "Change" TEXT, "Type" TEXT)*/

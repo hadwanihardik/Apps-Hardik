@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6082FD1909828D004E6C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6082FC1909828D004E6C64 /* Foundation.framework */; };
+		9A6082FF1909828D004E6C64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6082FE1909828D004E6C64 /* CoreGraphics.framework */; };
+		9A6083011909828D004E6C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6083001909828D004E6C64 /* UIKit.framework */; };
+		9A6083071909828D004E6C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A6083051909828D004E6C64 /* InfoPlist.strings */; };
+		9A6083091909828D004E6C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6083081909828D004E6C64 /* main.m */; };
+		9A60830D1909828D004E6C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60830C1909828D004E6C64 /* AppDelegate.m */; };
+		9A60830F1909828D004E6C64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A60830E1909828D004E6C64 /* Images.xcassets */; };
+		9A6083161909828D004E6C64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6083151909828D004E6C64 /* XCTest.framework */; };
+		9A6083171909828E004E6C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6082FC1909828D004E6C64 /* Foundation.framework */; };
+		9A6083181909828E004E6C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6083001909828D004E6C64 /* UIKit.framework */; };
+		9A6083201909828E004E6C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A60831E1909828E004E6C64 /* InfoPlist.strings */; };
+		9A6083221909828E004E6C64 /* MarketTradeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6083211909828E004E6C64 /* MarketTradeAppTests.m */; };
+		9A60832E190982CE004E6C64 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60832C190982CE004E6C64 /* HomePage.m */; };
+		9A60832F190982CE004E6C64 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60832D190982CE004E6C64 /* HomePage.xib */; };
+		9A60833319098655004E6C64 /* AddCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60833119098655004E6C64 /* AddCoinView.m */; };
+		9A60833419098655004E6C64 /* AddCoinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60833219098655004E6C64 /* AddCoinView.xib */; };
+		9A60833919098B4A004E6C64 /* btnRadioCategory.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A60833519098B4A004E6C64 /* btnRadioCategory.png */; };
+		9A60833A19098B4A004E6C64 /* btnRadioCategory_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A60833619098B4A004E6C64 /* btnRadioCategory_S.png */; };
+		9A60833B19098B4A004E6C64 /* btnRadioCategory_S@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A60833719098B4A004E6C64 /* btnRadioCategory_S@2x.png */; };
+		9A60833C19098B4A004E6C64 /* btnRadioCategory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A60833819098B4A004E6C64 /* btnRadioCategory@2x.png */; };
+		9A8A72CA19117B5A0083F3A4 /* MarketApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A72C919117B5A0083F3A4 /* MarketApp.sqlite */; };
+		9A8A72CD19117BB50083F3A4 /* api_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A72CC19117BB50083F3A4 /* api_Database.m */; };
+		9A8A72CF19117BE50083F3A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8A72CE19117BE50083F3A4 /* libsqlite3.dylib */; };
+		EF701A96191E904B00537E41 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF701A94191E904B00537E41 /* DemoViewController.m */; };
+		EF701A97191E904B00537E41 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF701A95191E904B00537E41 /* DemoViewController.xib */; };
+		EFCC30F9191BEE6C00D27233 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCC30F7191BEE6C00D27233 /* AboutView.m */; };
+		EFCC30FA191BEE6C00D27233 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCC30F8191BEE6C00D27233 /* AboutView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6083191909828E004E6C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6082F11909828D004E6C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6082F81909828D004E6C64;
+			remoteInfo = MarketTradeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A6082F91909828D004E6C64 /* MarketTradeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketTradeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6082FC1909828D004E6C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A6082FE1909828D004E6C64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A6083001909828D004E6C64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A6083041909828D004E6C64 /* MarketTradeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarketTradeApp-Info.plist"; sourceTree = "<group>"; };
+		9A6083061909828D004E6C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A6083081909828D004E6C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A60830A1909828D004E6C64 /* MarketTradeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarketTradeApp-Prefix.pch"; sourceTree = "<group>"; };
+		9A60830B1909828D004E6C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A60830C1909828D004E6C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A60830E1909828D004E6C64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A6083141909828D004E6C64 /* MarketTradeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketTradeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6083151909828D004E6C64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A60831D1909828E004E6C64 /* MarketTradeAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarketTradeAppTests-Info.plist"; sourceTree = "<group>"; };
+		9A60831F1909828E004E6C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A6083211909828E004E6C64 /* MarketTradeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketTradeAppTests.m; sourceTree = "<group>"; };
+		9A60832B190982CE004E6C64 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		9A60832C190982CE004E6C64 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		9A60832D190982CE004E6C64 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		9A60833019098655004E6C64 /* AddCoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCoinView.h; sourceTree = "<group>"; };
+		9A60833119098655004E6C64 /* AddCoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCoinView.m; sourceTree = "<group>"; };
+		9A60833219098655004E6C64 /* AddCoinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCoinView.xib; sourceTree = "<group>"; };
+		9A60833519098B4A004E6C64 /* btnRadioCategory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRadioCategory.png; sourceTree = "<group>"; };
+		9A60833619098B4A004E6C64 /* btnRadioCategory_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRadioCategory_S.png; sourceTree = "<group>"; };
+		9A60833719098B4A004E6C64 /* btnRadioCategory_S@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRadioCategory_S@2x.png"; sourceTree = "<group>"; };
+		9A60833819098B4A004E6C64 /* btnRadioCategory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRadioCategory@2x.png"; sourceTree = "<group>"; };
+		9A8A72C919117B5A0083F3A4 /* MarketApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarketApp.sqlite; sourceTree = "<group>"; };
+		9A8A72CB19117BB50083F3A4 /* api_Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api_Database.h; sourceTree = "<group>"; };
+		9A8A72CC19117BB50083F3A4 /* api_Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = api_Database.m; sourceTree = "<group>"; };
+		9A8A72CE19117BE50083F3A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF701A93191E904B00537E41 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		EF701A94191E904B00537E41 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		EF701A95191E904B00537E41 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		EFCC30F6191BEE6C00D27233 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		EFCC30F7191BEE6C00D27233 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		EFCC30F8191BEE6C00D27233 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A6082F61909828D004E6C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8A72CF19117BE50083F3A4 /* libsqlite3.dylib in Frameworks */,
+				9A6082FF1909828D004E6C64 /* CoreGraphics.framework in Frameworks */,
+				9A6083011909828D004E6C64 /* UIKit.framework in Frameworks */,
+				9A6082FD1909828D004E6C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6083111909828D004E6C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6083161909828D004E6C64 /* XCTest.framework in Frameworks */,
+				9A6083181909828E004E6C64 /* UIKit.framework in Frameworks */,
+				9A6083171909828E004E6C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6082F01909828D004E6C64 = {
+			isa = PBXGroup;
+			children = (
+				9A6083021909828D004E6C64 /* MarketTradeApp */,
+				9A60831B1909828E004E6C64 /* MarketTradeAppTests */,
+				9A6082FB1909828D004E6C64 /* Frameworks */,
+				9A6082FA1909828D004E6C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A6082FA1909828D004E6C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6082F91909828D004E6C64 /* MarketTradeApp.app */,
+				9A6083141909828D004E6C64 /* MarketTradeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A6082FB1909828D004E6C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A72CE19117BE50083F3A4 /* libsqlite3.dylib */,
+				9A6082FC1909828D004E6C64 /* Foundation.framework */,
+				9A6082FE1909828D004E6C64 /* CoreGraphics.framework */,
+				9A6083001909828D004E6C64 /* UIKit.framework */,
+				9A6083151909828D004E6C64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A6083021909828D004E6C64 /* MarketTradeApp */ = {
+			isa = PBXGroup;
+			children = (
+				9A60830B1909828D004E6C64 /* AppDelegate.h */,
+				9A60830C1909828D004E6C64 /* AppDelegate.m */,
+				9A60832B190982CE004E6C64 /* HomePage.h */,
+				9A60832C190982CE004E6C64 /* HomePage.m */,
+				9A60832D190982CE004E6C64 /* HomePage.xib */,
+				9A60833019098655004E6C64 /* AddCoinView.h */,
+				9A60833119098655004E6C64 /* AddCoinView.m */,
+				9A60833219098655004E6C64 /* AddCoinView.xib */,
+				EF701A93191E904B00537E41 /* DemoViewController.h */,
+				EF701A94191E904B00537E41 /* DemoViewController.m */,
+				EF701A95191E904B00537E41 /* DemoViewController.xib */,
+				EFCC30F6191BEE6C00D27233 /* AboutView.h */,
+				EFCC30F7191BEE6C00D27233 /* AboutView.m */,
+				EFCC30F8191BEE6C00D27233 /* AboutView.xib */,
+				9A60833519098B4A004E6C64 /* btnRadioCategory.png */,
+				9A60833619098B4A004E6C64 /* btnRadioCategory_S.png */,
+				9A60833719098B4A004E6C64 /* btnRadioCategory_S@2x.png */,
+				9A60833819098B4A004E6C64 /* btnRadioCategory@2x.png */,
+				9A8A72CB19117BB50083F3A4 /* api_Database.h */,
+				9A8A72CC19117BB50083F3A4 /* api_Database.m */,
+				9A60830E1909828D004E6C64 /* Images.xcassets */,
+				9A6083031909828D004E6C64 /* Supporting Files */,
+			);
+			path = MarketTradeApp;
+			sourceTree = "<group>";
+		};
+		9A6083031909828D004E6C64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A72C919117B5A0083F3A4 /* MarketApp.sqlite */,
+				9A6083041909828D004E6C64 /* MarketTradeApp-Info.plist */,
+				9A6083051909828D004E6C64 /* InfoPlist.strings */,
+				9A6083081909828D004E6C64 /* main.m */,
+				9A60830A1909828D004E6C64 /* MarketTradeApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A60831B1909828E004E6C64 /* MarketTradeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6083211909828E004E6C64 /* MarketTradeAppTests.m */,
+				9A60831C1909828E004E6C64 /* Supporting Files */,
+			);
+			path = MarketTradeAppTests;
+			sourceTree = "<group>";
+		};
+		9A60831C1909828E004E6C64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A60831D1909828E004E6C64 /* MarketTradeAppTests-Info.plist */,
+				9A60831E1909828E004E6C64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A6082F81909828D004E6C64 /* MarketTradeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6083251909828E004E6C64 /* Build configuration list for PBXNativeTarget "MarketTradeApp" */;
+			buildPhases = (
+				9A6082F51909828D004E6C64 /* Sources */,
+				9A6082F61909828D004E6C64 /* Frameworks */,
+				9A6082F71909828D004E6C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarketTradeApp;
+			productName = MarketTradeApp;
+			productReference = 9A6082F91909828D004E6C64 /* MarketTradeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A6083131909828D004E6C64 /* MarketTradeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6083281909828E004E6C64 /* Build configuration list for PBXNativeTarget "MarketTradeAppTests" */;
+			buildPhases = (
+				9A6083101909828D004E6C64 /* Sources */,
+				9A6083111909828D004E6C64 /* Frameworks */,
+				9A6083121909828D004E6C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A60831A1909828E004E6C64 /* PBXTargetDependency */,
+			);
+			name = MarketTradeAppTests;
+			productName = MarketTradeAppTests;
+			productReference = 9A6083141909828D004E6C64 /* MarketTradeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6082F11909828D004E6C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hardik Hadwani";
+				TargetAttributes = {
+					9A6082F81909828D004E6C64 = {
+						DevelopmentTeam = EKY7N92EC8;
+					};
+					9A6083131909828D004E6C64 = {
+						TestTargetID = 9A6082F81909828D004E6C64;
+					};
+				};
+			};
+			buildConfigurationList = 9A6082F41909828D004E6C64 /* Build configuration list for PBXProject "MarketTradeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A6082F01909828D004E6C64;
+			productRefGroup = 9A6082FA1909828D004E6C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A6082F81909828D004E6C64 /* MarketTradeApp */,
+				9A6083131909828D004E6C64 /* MarketTradeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6082F71909828D004E6C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCC30FA191BEE6C00D27233 /* AboutView.xib in Resources */,
+				9A8A72CA19117B5A0083F3A4 /* MarketApp.sqlite in Resources */,
+				9A60833A19098B4A004E6C64 /* btnRadioCategory_S.png in Resources */,
+				9A60832F190982CE004E6C64 /* HomePage.xib in Resources */,
+				9A60833919098B4A004E6C64 /* btnRadioCategory.png in Resources */,
+				9A60833419098655004E6C64 /* AddCoinView.xib in Resources */,
+				EF701A97191E904B00537E41 /* DemoViewController.xib in Resources */,
+				9A6083071909828D004E6C64 /* InfoPlist.strings in Resources */,
+				9A60833C19098B4A004E6C64 /* btnRadioCategory@2x.png in Resources */,
+				9A60833B19098B4A004E6C64 /* btnRadioCategory_S@2x.png in Resources */,
+				9A60830F1909828D004E6C64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6083121909828D004E6C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6083201909828E004E6C64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6082F51909828D004E6C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8A72CD19117BB50083F3A4 /* api_Database.m in Sources */,
+				9A60830D1909828D004E6C64 /* AppDelegate.m in Sources */,
+				9A60833319098655004E6C64 /* AddCoinView.m in Sources */,
+				9A60832E190982CE004E6C64 /* HomePage.m in Sources */,
+				EFCC30F9191BEE6C00D27233 /* AboutView.m in Sources */,
+				EF701A96191E904B00537E41 /* DemoViewController.m in Sources */,
+				9A6083091909828D004E6C64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6083101909828D004E6C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6083221909828E004E6C64 /* MarketTradeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A60831A1909828E004E6C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6082F81909828D004E6C64 /* MarketTradeApp */;
+			targetProxy = 9A6083191909828E004E6C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6083051909828D004E6C64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6083061909828D004E6C64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A60831E1909828E004E6C64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A60831F1909828E004E6C64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6083231909828E004E6C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A6083241909828E004E6C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6083261909828E004E6C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hardik hadwani (2V7NGR7ZYV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hardik hadwani (2V7NGR7ZYV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarketTradeApp/MarketTradeApp-Prefix.pch";
+				INFOPLIST_FILE = "MarketTradeApp/MarketTradeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1CEE7F0-8F65-4849-96F8-14EABE922D7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A6083271909828E004E6C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hardik hadwani (2V7NGR7ZYV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hardik hadwani (2V7NGR7ZYV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarketTradeApp/MarketTradeApp-Prefix.pch";
+				INFOPLIST_FILE = "MarketTradeApp/MarketTradeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1CEE7F0-8F65-4849-96F8-14EABE922D7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A6083291909828E004E6C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarketTradeApp.app/MarketTradeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarketTradeApp/MarketTradeApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarketTradeAppTests/MarketTradeAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A60832A1909828E004E6C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarketTradeApp.app/MarketTradeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarketTradeApp/MarketTradeApp-Prefix.pch";
+				INFOPLIST_FILE = "MarketTradeAppTests/MarketTradeAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6082F41909828D004E6C64 /* Build configuration list for PBXProject "MarketTradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6083231909828E004E6C64 /* Debug */,
+				9A6083241909828E004E6C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6083251909828E004E6C64 /* Build configuration list for PBXNativeTarget "MarketTradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6083261909828E004E6C64 /* Debug */,
+				9A6083271909828E004E6C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6083281909828E004E6C64 /* Build configuration list for PBXNativeTarget "MarketTradeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6083291909828E004E6C64 /* Debug */,
+				9A60832A1909828E004E6C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A6082F11909828D004E6C64 /* Project object */;
+}
