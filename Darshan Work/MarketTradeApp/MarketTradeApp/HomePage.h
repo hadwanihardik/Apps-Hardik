@@ -5,7 +5,7 @@
 //  Created by Hardik Hadwani on 24/04/14.
 //  Copyright (c) 2014 Hardik Hadwani. All rights reserved.
 //
-
+//sample change.
 #import <UIKit/UIKit.h>
 #import "AddCoinView.h"
 #import "AboutView.h"
