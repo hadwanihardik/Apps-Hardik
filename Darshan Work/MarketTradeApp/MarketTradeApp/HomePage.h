@@ -23,3 +23,4 @@
 -(IBAction)addCoin:(id)sender;
 -(IBAction)support:(id)sender;
 @end
+l
